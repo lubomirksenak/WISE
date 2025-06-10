@@ -1,5 +1,4 @@
-# WISE
-Water body Index-based Sentinel-2 Extraction
+# WISE - Water body Index-based Sentinel-2 Extraction
 
 This repository contains the code used in the research article:  
 **"Automated Extraction and Monitoring of Surface Water Bodies Using Sentinel-1 and Sentinel-2 Imagery in the Google Earth Engine Cloud Environment"**.
