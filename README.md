@@ -2,7 +2,7 @@
 **W**ater body **I**ndex-based **S**entinel-2 **E**xtraction
 
 This repository contains the code used in the research article:  
-**"Automated Extraction and Monitoring of Surface Water Bodies Using Sentinel-1 and Sentinel-2 Imagery in the Google Earth Engine Cloud Environment"**.
+**"Evaluation of the Potential for Automatic Extraction of Water Surfaces Using a Multi-Sensor Data Approach: A Case Study from Veľká Domaša reservoir, Slovakia"**.
 
 ## 🔍 Description
 
