@@ -6,27 +6,27 @@ from sklearn.metrics import confusion_matrix, cohen_kappa_score
 # Function to load a binary mask from a TIFF file
 def load_mask(file_path, threshold=0.3):
     with rasterio.open(file_path) as src:
-        data = src.read(1)  # Read the first (only) band
-        mask = np.where(data > threshold, 1, 0)  # Create a binary mask based on threshold
+        data = src.read(1)
+        mask = np.where(data > threshold, 1, 0)
     return mask
 
 # Load reference data (ground truth based on NDWI)
-truth = load_mask("mask_AWEIsh_2021_03_27.tif", threshold=0.3)  # Assuming NDWI is used for water extraction
+truth = load_mask("mask_AWEIsh_2021_03_27.tif", threshold=0.3)
 
 with rasterio.open("predicted_mask_2021_VV.tif") as src:
     predicted = src.read(1)
-    predicted_meta = src.meta  # Save prediction metadata
+    predicted_meta = src.meta
 
 # Load prediction and adjust dimensions if necessary
 with rasterio.open("mask_AWEIsh_2021_03_27.tif") as src:
-    truth_meta = src.meta  # Save reference data metadata
+    truth_meta = src.meta
 
 if truth_meta['width'] != predicted_meta['width'] or truth_meta['height'] != predicted_meta['height']:
     with rasterio.open("predicted_mask_2021_VV.tif") as src:
         predicted_resampled = src.read(
             1, 
             out_shape=(truth_meta['height'], truth_meta['width']),
-            resampling=Resampling.nearest)  # Or use another resampling method as needed
+            resampling=Resampling.nearest)
     predicted = predicted_resampled
     predicted = np.where(predicted == 255, 1, 0)
 
@@ -35,8 +35,8 @@ if truth.shape != predicted.shape:
     raise ValueError("Image dimensions do not match!")
 
 # Convert 2D arrays to 1D vectors
-y_true = truth.flatten()  # True values (ground truth)
-y_pred = predicted.flatten()  # Predicted values (water extraction)
+y_true = truth.flatten()
+y_pred = predicted.flatten()
 
 # Compute confusion matrix
 cm = confusion_matrix(y_true, y_pred)
