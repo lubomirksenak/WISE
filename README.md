@@ -38,7 +38,7 @@ The script is implemented in **Google Earth Engine (GEE)** and supports temporal
 
 - Water area extent 
 - Visual water masks
-- Accuracy metrics (TBA)
+- Accuracy metrics
 
 ## 📜 License
 
