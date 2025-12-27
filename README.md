@@ -2,7 +2,7 @@
 **W**ater body **I**ndex-based **S**entinel-2 **E**xtraction
 
 This repository contains the code used in the research article:  
-**"Evaluation of the Potential for Automatic Extraction of Water Surfaces Using a Multi-Sensor Data Approach: A Case Study from Veľká Domaša reservoir, Slovakia"**.
+**"Evaluation of Automated Water Surface Extraction Using Mul-ti-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia"**.
 
 ## 🔍 Description
 
@@ -15,6 +15,7 @@ The script is implemented in **Google Earth Engine (GEE)** and supports temporal
 - **Sentinel-2 MSI**: optical imagery from ESA (via GEE catalog)
 - **Sentinel-1 SAR**: radar imagery from ESA (via GEE catalog)
 - **Orthophotos**: provided by Geodetic and Cartographic Institute Bratislava (GKÚ) and the National Forestry Centre (NLC)
+- **Hydrological data - water level elevation**: provided by Slovak Water Management Enterprise (SVP š. p.)
 
 ## ⚙️ Methodology Overview
 
