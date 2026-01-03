@@ -1,5 +1,5 @@
 # WISE 
-**W**ater body **I**ndex-based **S**entinel-2 **E**xtraction
+**W**ater bodies **I**ndex-based **S**entinel-2 **E**xtraction
 
 This repository contains the code used in the research article:  
 **"Evaluation of Automated Water Surface Extraction Using Multi-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia"**.
