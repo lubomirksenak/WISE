@@ -22,7 +22,7 @@ The script is implemented in **Google Earth Engine (GEE)** and supports temporal
 - Selection of cloud-free Sentinel-2 images (<20% cloud cover)
 - Calculation of water indices: `NDWI`, `MNDWI`, `AWEIsh`, `AWEInsh` and `WRI`
 - Thresholding and water mask generation (with optional Otsu method)
-- Accuracy assessment using Sentinel-1 (VH and VV polarization)
+- SAR evaluation and accuracy assessment using Sentinel-1 (VH and VV polarization)
 - Validation against orthophotos (TBA)
 
 ## 📁 Structure
