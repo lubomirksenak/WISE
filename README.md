@@ -46,7 +46,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🔗 Citation
 
-If you use this script or data in your research, please cite the corresponding publication (citation to be added upon article acceptance).
+If you use this script or data in your research, please cite the corresponding publication:
+- Kseňak, Ľ.; Bartoš, K.; Pukanská, K.; Alkhalaf, I. Evaluation of Automated Water Surface Extraction Using Multi-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia. Remote Sens. 2026, 18, 545. https://doi.org/10.3390/rs18040545
 
 ## 📬 Contact
 
