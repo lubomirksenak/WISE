@@ -2,7 +2,7 @@
 **W**ater bodies **I**ndex-based **S**entinel-2 **E**xtraction
 
 This repository contains the code used in the research article:  
-**"Evaluation of Automated Water Surface Extraction Using Multi-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia"**.
+**"Evaluation of Automated Water Surface Extraction Using Multi-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia"** on adress: https://www.mdpi.com/2072-4292/18/4/545.
 
 ## 🔍 Description
 
