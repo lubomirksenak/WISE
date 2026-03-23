@@ -4,6 +4,9 @@
 This repository contains the code used in the research article:  
 **"Evaluation of Automated Water Surface Extraction Using Multi-Source Remote Sensing Data: A Case Study of the Veľká Domaša Reservoir, Slovakia"** on adress: https://www.mdpi.com/2072-4292/18/4/545.
 
+![image](https://github.com/)
+Figure 4. Annual water extent of the Veľká Domaša reservoir from 2018 to 2023 derived using 485 NDWI. Light areas indicate the maximum water levels, and dark areas indicate the minimum water levels for each year (c).
+
 ## 🔍 Description
 
 This project presents an automated methodology for surface water body extraction based on spectral indices (NDWI, MNDWI, AWEIsh, WRI) from Sentinel-2 data. It also includes accuracy validation using Sentinel-1 SAR imagery and comparisons with orthophoto data.
