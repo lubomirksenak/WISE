@@ -11,7 +11,7 @@ This project presents an automated methodology for surface water body extraction
 The script is implemented in **Google Earth Engine (GEE)** and supports temporal analysis from **2018 to 2023**.
 
 ![image](https://github.com/user-attachments/assets/78ab0e6e-5bc4-45a3-955b-e88f45b113bb)
-Figure 4. Annual water extent of the Veľká Domaša reservoir from 2018 to 2023 derived using 485 NDWI. Light areas indicate the maximum water levels, and dark areas indicate the minimum water levels for each year (c).
+Figure - Annual water extent of the Veľká Domaša reservoir from 2018 to 2023 derived using 485 NDWI. Light areas indicate the maximum water levels, and dark areas indicate the minimum water levels for each year (c).
 
 ## 🛰️ Data Sources
 
